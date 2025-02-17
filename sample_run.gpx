@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPX Track Cleaner Test">
+  <trk>
+    <name>Sample Running Route</name>
+    <trkseg>
+      <!-- Normal speed points -->
+      <trkpt lat="40.7128" lon="-74.0060">
+        <time>2024-02-16T10:00:00Z</time>
+      </trkpt>
+      <trkpt lat="40.7129" lon="-74.0061">
+        <time>2024-02-16T10:00:30Z</time>
+      </trkpt>
+      <!-- GPS error point (unrealistic speed) -->
+      <trkpt lat="40.7500" lon="-74.0070">
+        <time>2024-02-16T10:00:45Z</time>
+      </trkpt>
+      <!-- Back to normal -->
+      <trkpt lat="40.7130" lon="-74.0062">
+        <time>2024-02-16T10:01:00Z</time>
+      </trkpt>
+      <trkpt lat="40.7131" lon="-74.0063">
+        <time>2024-02-16T10:01:30Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
